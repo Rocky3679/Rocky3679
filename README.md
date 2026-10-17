@@ -36,11 +36,11 @@ Currently, I work as a Maintenance Engineer at **ESAB India**, where I gain hand
 - 💼 **[Engineering Portfolio](https://github.com/Rocky3679/Engineering-Portfolio)**  
   Professional Engineering Portfolio of Janaki Raman K. Central hub for my resume, project documentation, and technical case studies.
 
-- 📝 **[Electro Maestro Hub](https://github.com/Rocky3679/electro-maestro-hub)**  
-  A technical blog dedicated to electronics, embedded systems, and engineering concepts. Maintained consistently to document my learning journey and technical communication skills.
+- 📝 **[Electro Maestro Hub](https://electromaestrohub.blogspot.com/)**  
+  A technical blog dedicated to electronics, embedded systems, and engineering concepts. Maintained consistently to document my learning journey and technical communication skills. *(Visit the live blog!)*
 
 - 💻 **[Full-Stack LMS Project](https://github.com/Rocky3679/lms-project)**  
-  Online Learning Management System built with React.js, Node.js, Express.js, and PostgreSQL. *Demonstrates versatility and full-stack software capability, valuable for embedded systems requiring UI/dashboard integration.*
+  Online Learning Management System built with React.js, Node.js, Express.js, and PostgreSQL. *Demonstrates versatility and full-stack software capabilities, valuable for embedded systems requiring UI/dashboard integration.*
 
 ---
 
@@ -63,8 +63,8 @@ I believe in continuous learning and building tangible, portfolio-ready projects
   <a href="mailto:janakiraman3679@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://github.com/Rocky3679/electro-maestro-hub" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-2f362d?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/>
+  <a href="https://electromaestrohub.blogspot.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tech_Blog-2f362d?style=for-the-badge&logo=blogger&logoColor=white" alt="Tech Blog"/>
   </a>
 </p>
 
