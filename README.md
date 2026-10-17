@@ -16,7 +16,7 @@ Currently, I work as a Maintenance Engineer at **ESAB India**, where I gain hand
 | :--- | :--- |
 | **Embedded & Hardware** | Arduino, ESP32, STM32 (Learning), IR Sensors, OLED Displays, Industrial Sensors |
 | **Power Electronics** | DC-DC Converters, EV Charging Stages, LTspice Simulation, Worst-Case Analysis (WCA), BOM Optimization |
-| **Programming** | C, Embedded C, C++, Python, JavaScript, SQL |
+| **Programming** | C, Embedded C, C++, Python |
 | **Validation & Testing** | Hardware Debugging, Root-Cause Analysis, Simulation Validation, System Troubleshooting |
 | **Software & Tools** | Git, GitHub, VS Code, MATLAB, AutoCAD Electrical (Learning), Node.js, React, PostgreSQL |
 
