@@ -1,6 +1,6 @@
 # Janaki Raman K · Hardware & Embedded Systems Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com)
+[![LinkedIn](www.linkedin.com/in/janaki-ramank)
 [![Electro Maestro Hub](https://img.shields.io/badge/Publication-Electro%20Maestro%20Hub-FACC15?style=flat-square)](https://electromaestrohub.blogspot.com/)
 [![Standards](https://img.shields.io/badge/Standards-ISO%2016750--2%20%7C%20CISPR%2025%20%7C%20IEC%2061000--4--2-red?style=flat-square)](#)
 
