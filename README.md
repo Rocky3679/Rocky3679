@@ -1,73 +1,54 @@
-# Hi there 👋 I'm Janaki Raman K
+# Janaki Raman K · Hardware & Embedded Systems Engineer
 
-### ⚡ Electrical & Electronics Engineer | Embedded Systems, Power Electronics & Hardware Validation
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com)
+[![Electro Maestro Hub](https://img.shields.io/badge/Publication-Electro%20Maestro%20Hub-FACC15?style=flat-square)](https://electromaestrohub.blogspot.com/)
+[![Standards](https://img.shields.io/badge/Standards-ISO%2016750--2%20%7C%20CISPR%2025%20%7C%20IEC%2061000--4--2-red?style=flat-square)](#)
 
-I am an Electrical & Electronics Engineering graduate passionate about bridging the gap between hardware and software. I specialize in **Embedded Systems, Power Electronics, and Hardware Validation**, with a strong foundation in real-world industrial troubleshooting.
+Electrical & Electronics Engineer specializing in **Automotive Power Electronics (12V / 24V / 48V)**, **Embedded Firmware (ANSI C / Q15 Fixed-Point)**, and **Hardware Test & Validation Architecture**. 
 
-Currently, I work as a Maintenance Engineer at **ESAB India**, where I gain hands-on experience with industrial hardware, control systems, and root-cause analysis. This real-world exposure to hardware failures and system reliability directly informs my approach to designing robust, testable embedded systems and power stages.
-
-🎯 **Career Objective:** To contribute to world-class engineering teams (like Valeo or similar innovators) by designing, simulating, and validating intelligent embedded systems, power electronics solutions, and reliable hardware-software architectures.
+Professional background includes industrial power electronics root-cause failure analysis (RCA), IGBT/MOSFET switching dynamics, and design for electromagnetic compatibility (EMC/EMI). Founder & Technical Editor at **Electro Maestro Hub**.
 
 ---
 
-### 🛠️ Technical Arsenal
+### ⚡ Core Technical Domain
 
-| Category | Technologies & Tools |
+| Engineering Silo | Tools, Standards & Methodologies |
 | :--- | :--- |
-| **Embedded & Hardware** | Arduino, ESP32, STM32 (Learning), IR Sensors, OLED Displays, Industrial Sensors |
-| **Power Electronics** | DC-DC Converters, EV Charging Stages, LTspice Simulation, Worst-Case Analysis (WCA), BOM Optimization |
-| **Programming** | C, Embedded C, C++, Python |
-| **Validation & Testing** | Hardware Debugging, Root-Cause Analysis, Simulation Validation, System Troubleshooting |
-| **Software & Tools** | Git, GitHub, VS Code, MATLAB, AutoCAD Electrical (Learning), Node.js, React, PostgreSQL |
+| **Power Hardware & Validation** | WCCA (<70% Stress Derating), LTspice Simulation, 4-Layer PCB Stackup Design (KiCad 8.0), Snubber Damping (RC/RCD), Gate Drivers |
+| **Embedded Firmware & Control** | ANSI C (C99), Fixed-Point Q15 Arithmetic, Space Vector PWM (SVPWM), FOC Math Engines, FreeRTOS, STM32 / ESP32 |
+| **Industrial & Automotive Standards**| **CISPR 25 Class 5** (Conducted/Radiated EMI), **ISO 16750-2 / ISO 7637-2** (Transients/Cold Crank), **IEC 61000-4-2** (ESD) |
+| **Bench Verification & Testing** | High-Voltage LISN Benches, Thermal Validation, Switch-Node Ringing Damping, 4-Terminal Earth Testing, DSO Loop Probing |
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Featured Engineering Repositories
 
-- 🔋 **[5kW EV Charger Power Stage LTspice](https://github.com/Rocky3679/5kW-EV-Charger-Power-Stage-LTspice)**  
-  LTspice simulation, Worst-Case Analysis (WCA <70%), and BOM optimization for a 5kW Solar PV to EV DC-DC charging power stage. *Showcases power electronics design and rigorous simulation validation.*
+#### 🚗 [Automotive Power Hardware Validation Suite](https://github.com/Rocky3679/automotive-power-hardware-validation)
+*Master open-source hardware validation suite covering 5 critical power electronics modules:*
+* **01 System Grounding & EMC:** 4-Layer controlled-impedance stackup rules, high-frequency return path physics ($f_c \approx 100\,\text{kHz}$), and chassis decoupling ($1\,\text{M}\Omega \parallel 10\,\text{nF} / 2\,\text{kV}$).
+* **02 Power Semiconductors & Snubbers:** Switching transient damping, reverse recovery charge ($Q_{rr}$) extraction, and analytical RC snubber solvers.
+* **03 Gate Drivers:** Parasitic $dV/dt$ false turn-on suppression, Active Miller Clamping (AMC), and isolated bootstrap networks.
+* **04 DC-DC Converters:** Cold-crank ride-through ($3.2\,\text{V}$) synchronous buck and SEPIC architectures.
+* **05 Motor Inverters & SVPWM:** Production-grade ANSI C fixed-point Space Vector PWM sector generation engine.
 
-- 🧠 **[Dual-Core Edge Computing Framework](https://github.com/Rocky3679/Dual-Core-Edge-Computing-Framework)**  
-  Final Year Engineering Project focused on Power Factor Correction and Load Demand Management. *Demonstrates embedded system architecture and real-time control logic.*
+#### 🔋 [5kW Photovoltaic-to-EV Fast Charging Power Stage](https://github.com/Rocky3679)
+* Comprehensive LTspice electrical modeling and worst-case circuit derating (WCCA) for high-efficiency DC-DC conversion.
+* Component thermal stress modeling and inductor volt-second balancing across extreme automotive ambient profiles ($-40^\circ\text{C}$ to $+105^\circ\text{C}$).
 
-- 🚪 **[Smart Room Occupancy Counter](https://github.com/Rocky3679/Smart-Room-Occupancy-Counter)**  
-  Arduino-based system with automatic light control using IR Sensors and OLED Display. *Built with Embedded C++, highlighting sensor integration and hardware-software interfacing.*
-
-- 💼 **[Engineering Portfolio](https://github.com/Rocky3679/Engineering-Portfolio)**  
-  Professional Engineering Portfolio of Janaki Raman K. Central hub for my resume, project documentation, and technical case studies.
-
-- 📝 **[Electro Maestro Hub](https://electromaestrohub.blogspot.com/)**  
-  A technical blog dedicated to electronics, embedded systems, and engineering concepts. Maintained consistently to document my learning journey and technical communication skills. *(Visit the live blog!)*
-
-- 💻 **[Full-Stack LMS Project](https://github.com/Rocky3679/lms-project)**  
-  Online Learning Management System built with React.js, Node.js, Express.js, and PostgreSQL. *Demonstrates versatility and full-stack software capabilities, valuable for embedded systems requiring UI/dashboard integration.*
+#### 🧠 [UnitySync: Dual-Core Edge Framework for Power Factor & Grid Demand](https://github.com/Rocky3679)
+* Dual-core embedded architecture executing concurrent real-time sampling and power factor correction control loops.
+* Deterministic inter-core communications with zero cycle-slipping under peak inductive load transients.
 
 ---
 
-### 📈 Current Focus & Learning Journey
-
-I believe in continuous learning and building tangible, portfolio-ready projects. Currently, I am deepening my expertise in:
-- Advanced Embedded C/C++ and RTOS concepts
-- Power Electronics simulation and hardware validation techniques
-- Test-driven development for embedded systems
-- Expanding my **Electro Maestro Hub** blog with technical deep-dives
+### 📑 Technical Publications & Engineering Standards
+I publish rigorous engineering reference matrices, mathematical derivations, and pre-tapeout checklists at **[Electro Maestro Hub](https://electromaestrohub.blogspot.com/)**:
+* **Doc ID: EMH-HW-CKL-001** · *PCB Grounding & EMC Mitigation Checklist (CISPR 25 / ISO 16750-2)*
+* **Doc ID: EMH-PE-CAL-002** · *Diode Reverse Recovery ($t_{rr}$) & Snubber Damping Solver*
+* **Master Register:** Verified tracking across all deliverables via our formal *Engineering Document Release Register (EDRR)*.
 
 ---
 
-### 📫 Connect with Me
-
-<p align="left">
-  <a href="https://linkedin.com/in/janaki-ramank" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:janakiraman3679@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://electromaestrohub.blogspot.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Tech_Blog-2f362d?style=for-the-badge&logo=blogger&logoColor=white" alt="Tech Blog"/>
-  </a>
-</p>
-
-<p align="center">
-  <em>Thank you for visiting my profile! Let's build reliable, innovative hardware together.</em>
-</p>
+### 📬 Direct Engineering Contact
+* **Email:** janakiraman3679@gmail.com
+* **GitHub Issues:** Open a discussion on the [Validation Suite](https://github.com/Rocky3679/automotive-power-hardware-validation/issues) for errata or design reviews.
